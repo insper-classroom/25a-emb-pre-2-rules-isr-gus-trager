@@ -8,6 +8,7 @@ int batata;
 // increases when the button is pressed.
 void btn_callback(void) {
   printf("btn pressed \n");
+  
 
   if (g_cnt >= 8)
     g_cnt = 0;
